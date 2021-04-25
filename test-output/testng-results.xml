@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-25T11:11:47 IST" name="Suite" finished-at="2021-04-25T11:12:39 IST" duration-ms="52090">
+    <groups>
+    </groups>
+    <test started-at="2021-04-25T11:11:47 IST" name="Test" finished-at="2021-04-25T11:12:39 IST" duration-ms="52090">
+      <class name="callhub.Base.PricingPage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:11:47 IST" name="openBrowser" finished-at="2021-04-25T11:12:19 IST" duration-ms="31885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:19 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:27 IST" duration-ms="7811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pay as you go]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:27 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:28 IST" duration-ms="935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$199.98/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:28 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:28 IST" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Premium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$499.95/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:28 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:29 IST" duration-ms="1066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quarterly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pay as you go]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:29 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:30 IST" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quarterly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$189.98/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:30 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:31 IST" duration-ms="550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quarterly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Premium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$474.95/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:31 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:33 IST" duration-ms="2880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Half-yearly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pay as you go]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:33 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:34 IST" duration-ms="656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Half-yearly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$185.98/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:34 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:35 IST" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Half-yearly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Premium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$464.95/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:35 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:36 IST" duration-ms="1075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yearly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pay as you go]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:36 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:36 IST" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yearly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$179.98/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method signature="pricingPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:36 IST" name="pricingPage" data-provider="getData" finished-at="2021-04-25T11:12:37 IST" duration-ms="510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yearly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Premium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$449.96/mo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:callhub.Base.PricingPage@5ace1ed4]" started-at="2021-04-25T11:12:37 IST" name="closeBrowser" finished-at="2021-04-25T11:12:39 IST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- callhub.Base.PricingPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
